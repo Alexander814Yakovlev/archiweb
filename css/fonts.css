@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url(../fonts/Barlow-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Playfair Black';
+    src: url(../fonts/PlayfairDisplay-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Playfair Regular';
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
