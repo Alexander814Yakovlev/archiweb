@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="img/favicon.svg" type="image/svg">
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/sidenav.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>ArchiWeb</title>
@@ -20,13 +21,20 @@
                 <div class="navbar__logo logo"><a href="#">ArchiWeb</a></div>
                 <ul class="navbar__menu_desktop">
                     <li class="menu_link"><a href="#">Home</a></li>
-                    <li class="menu_link"><a href="#">Projects</a></li>
-                    <li class="menu_link"><a href="#">About</a></li>
-                    <li class="menu_link"><a href="#">Contact</a></li>
+                    <li class="menu_link"><a href="#projects">Projects</a></li>
+                    <li class="menu_link"><a href="#about">About</a></li>
+                    <li class="menu_link"><a href="#footer">Contact</a></li>
                     <li class="menu_link"><a href="#">
                             <img src="img/search-icon.svg" alt="Search" class="search-icon"></a>
                     </li>
                 </ul>
+                <a href="#" data-target="slide-out" class="sidenav-trigger">
+                    <div class="burger">
+                        <div class="burger__line"></div>
+                        <div class="burger__line"></div>
+                        <div class="burger__line"></div>
+                    </div>
+                </a>
             </div>
         </div>
     </nav>
@@ -87,13 +95,161 @@
     </section>
 
     <!-- About Us -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__info">
+                    <h2 class="about__header">About Us</h2>
+                    <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
+                        amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+                    <a href="#about" class="about__more">Read more</a>
+                </div>
+                <div class="about__image">
+                    <img src="img/blueprint.webp" alt="Blueprint">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Our projects -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="projects__header">Our Projects</h2>
+            <div class="projects__grid">
+                <div class="projects__item">
+                    <div class="projects__item_image">
+                        <img class="materialboxed" src="img/project_1.webp" alt="Project 1">
+                    </div>
+                    <p>Our Services Line one</p>
+                    <p>Servive line two</p>
+                </div>
+                <div class="projects__item">
+                    <div class="projects__item_image">
+                        <img class="materialboxed" src="img/project_2.webp" alt="Project 2">
+                    </div>
+                    <p>Our Services Line one</p>
+                    <p>Servive line two</p>
+                </div>
+                <div class="projects__item">
+                    <div class="projects__item_image">
+                        <img class="materialboxed" src="img/project_3.webp" alt="Project 3">
+                    </div>
+                    <p>Our Services Line one</p>
+                    <p>Servive line two</p>
+                </div>
+                <div class="projects__item">
+                    <div class="projects__item_image">
+                        <img class="materialboxed" src="img/project_4.webp" alt="Project 4">
+                    </div>
+                    <p>Our Services Line one</p>
+                    <p>Servive line two</p>
+                </div>
+                <div class="projects__item">
+                    <div class="projects__item_image">
+                        <img class="materialboxed" src="img/project_5.webp" alt="Project 5">
+                    </div>
+                    <p>Our Services Line one</p>
+                    <p>Servive line two</p>
+                </div>
+                <div class="projects__item">
+                    <div class="projects__item_image">
+                        <img class="materialboxed" src="img/project_6.webp" alt="Project 6">
+                    </div>
+                    <p>Our Services Line one</p>
+                    <p>Servive line two</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Testimonial -->
+    <section class="tesimonial">
+        <div class="container">
+            <h2 class="testimonial__header">Testimonial</h2>
+            <div class="testimonial__inner">
+                <div class="testimonial__item_wrapper">
+                    <div class="testimonial__item">
+                        <div class="testimonial__item_image">
+                            <img src="img/person_1.svg" alt="Person 1">
+                        </div>
+                        <div class="testimonial__item_text">
+                            <h3 class="item__name">James Passaquindici Arcand</h3>
+                            <div class="item__description">
+                                <p>Lorem ipsum dolor sit amet,</p>
+                                <p>consectetur adipiscing elit ut</p>
+                                <p>aliquam, purus sit amet luctus venenatis</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial__item_wrapper">
+                    <div class="testimonial__item">
+                        <div class="testimonial__item_image">
+                            <img src="img/person_2.svg" alt="Person 2">
+                        </div>
+                        <div class="testimonial__item_text">
+                            <h3 class="item__name">Abram Schleifer</h3>
+                            <div class="item__description">
+                                <p>Lorem ipsum dolor sit amet,</p>
+                                <p>consectetur adipiscing elit ut</p>
+                                <p>aliquam, purus sit amet luctus venenatis</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__info">
+                    <div class="footer__logo logo">ArchiWeb</div>
+                    <div class="footer__info_text">
+                        <p>Archiweb is an architectural consultant based in Berlin, Germany. We provide solutions for
+                            your architecture and residential design
+                        </p>
+                    </div>
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="icon-facebook-squared"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="icon-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="icon-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer__articles">
+                    <h3 class="articles__header footer__header">Articles</h3>
+                    <ul class="footer__articles_list">
+                        <li>7 Tips for Kids Friendly Interior Design</li>
+                        <li>Smart Tips for Changing a Room</li>
+                        <li>Eco-friendly design</li>
+                    </ul>
+                </div>
+                <div class="footer__location">
+                    <h3 class="location__header footer__header">Location</h3>
+                    <div class="footer__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2234.351904868977!2d-3.2039214!3d55.9432724!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1709991449237!5m2!1sen!2s"
+                            width="295" height="221" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
+    <!-- Mobile menu -->
+    <ul id="slide-out" class="sidenav">
+        <li><div class="navbar__logo logo sidenav-close"><a href="#">ArchiWeb</a></div></li>
+        <li><a class="sidenav-close" href="#">Home</a></li>
+        <li><a class="sidenav-close" href="#projects">Projects</a></li>
+        <li><a class="sidenav-close" href="#about">About</a></li>
+        <li><a class="sidenav-close" href="#footer">Contact</a></li>
+    </ul>
+
+    <!-- Scripts -->
+    <script src="js/materialize.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
